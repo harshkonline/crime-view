@@ -296,7 +296,7 @@ def connect_to_db(app):
     """Connect the database to our Flask app."""
 
     # Configure to use our SQLite database
-    app.config['SQLALCHEMY_DATABASE_URI'] =  'postgres://pqylijlwsgepml:sRCVHE_YLWVZjAT8vgersnCzw0@ec2-54-197-247-170.compute-1.amazonaws.com:5432/d5bdmabc9cdi9a'
+    app.config['SQLALCHEMY_DATABASE_URI'] =  ' postgres://txajzadvfeiyvu:a1eGI4zEUhxuWb92Z5jW_JXj3B@ec2-54-204-41-175.compute-1.amazonaws.com:5432/d5tt1u6d0bgf74'
     db.app = app
     db.init_app(app)
 
